@@ -1,4 +1,6 @@
 # PortTop
+<img width="1079" height="499" alt="main" src="https://github.com/user-attachments/assets/d2951e64-93bc-459c-8452-1aedd3ca075c" />
+
 
 PortTop is a terminal-based TUI for monitoring local network ports, showing which process owns each socket, and optionally running a one-shot `nmap` scan on a selected port.
 
@@ -50,10 +52,7 @@ porttop
 sudo porttop
 ```
 
-## Screenshots
-Regular user:
-![PortTop regular user](reg_user.png)
-
+## Screenshot
 Sudo:
 ![PortTop sudo](sudo_port_top.png)
 
