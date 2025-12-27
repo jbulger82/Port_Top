@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "porttop"
+version = "0.1.0"
+description = "A TUI for monitoring network ports and killing processes with one click."
+authors = [
+  { name = "Jeff", email = "jeff@example.com" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+]
+dependencies = [
+    "psutil",
+    "textual",
+]
+
+[project.scripts]
+porttop = "port_killer:main"
+
+[project.urls]
+"Homepage" = "https://github.com/username/porttop"
+"Bug Tracker" = "https://github.com/username/porttop/issues"
+
+[tool.setuptools]
+py-modules = ["port_killer"]
